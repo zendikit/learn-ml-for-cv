@@ -1,0 +1,24 @@
+site_name: ML for CV
+site_url: https://ml-for-cv.zendikit.work
+site_description: Learning material for Machine Learning for Computer Vision
+site_author: Zendikit
+
+docs_dir: src
+site_dir: docs
+
+theme:
+  name: material
+  palette:
+    primary: white
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/barcode
+      link: https://zendikit.work
